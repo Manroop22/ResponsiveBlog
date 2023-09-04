@@ -19,9 +19,26 @@
 }
 
 .btn{
-
+    padding: 0px 20px;
+    border: 2px solid black;
+    border-radius: 7px;
+    font-family: var(--font1);
+    font-size: 16px;
+    cursor: pointer;
+    transition: all .3 ease-in-out;
 }
 
-.form-control{
+.btn:hover{
+    background-color: var(--main-bg-color);
+    color: white;
+}
 
+.form-input{
+    padding-top: 3px;
+    padding:0px 5px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 0 13px;
+    font-family: var(--font1);
 }

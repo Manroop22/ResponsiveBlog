@@ -7,7 +7,6 @@
 .navigation{
     font-family: var(--font1);
     height: 74px;
-    background-color: azure;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,12 +20,19 @@
 .nav-left ul{
     display: flex;
     align-items: center;
+    margin:77px;
+    font-size: 18px;
 }
 
 .nav-left ul li{
     font-family: var(--font2);
     list-style: none;
     margin: 0px 13px;
+}
+
+.nav-left ul li a:hover{
+    color: var(--main-bg-color);
+    font-weight: bolder;
 }
 
 .nav-left ul a{
@@ -39,11 +45,31 @@
 }
 
 .content{
-    height:95px;
-    background-color: blue;
+    height:auto;
+    /* background-color: rgb(207, 207, 240); */
+    display: flex;
+    margin-top: 32px;
+}
+
+.content-left{
+    font-family: var(--font1);
+    flex-direction: column;
+    padding: 30px;
+    
+}
+
+.content-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-right img{
+    height: 300px;
+    border: 4px solid black;
+    border-radius: 500px;
 }
 
 .footer{
 height: 50px;
-background-color: blueviolet;
 }
